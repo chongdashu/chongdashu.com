@@ -19,6 +19,25 @@
     <link rel="stylesheet" href="lib/bootstrap-material-design/css/material.min.css" rel="stylesheet">
     <link rel="stylesheet" href="lib/bootstrap-material-design/css/ripples.min.css" rel="stylesheet">
 
+    <style type="text/css">
+        .label-itchio {
+          background-color: #FA5C5C;
+          text-decoration: none;
+        }
+
+        .label-itchio a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .label-itchio a:hover {
+            text-decoration: underline;
+        }
+        .label-itchio:hover,
+        .label-itchio[href]:focus, {
+          color: black;
+        }
+    </style>
     <script>
         $(document).ready(function() {
         
@@ -33,10 +52,100 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-12">
                 
 
-                <h2>Projects</h2>
+                <h2>Games</h2>
+
+                <!-- BEGIN PROJECT -->
+                <div class="row row-project">
+                    <div class="col-md-12">
+                        <div class="project-container">
+                            <div class="row">
+                                <div class="col-md-12 project-title">
+                                    <h3> Pong Platform Shooter </h3>
+                                </div>
+                                <div class="col-md-2  project-screenshot text-center">
+                                    <div class="project-image" style="width:180px; height:120px; border: 2px solid green; padding-top: 25px; color: green;">
+                                        Image
+                                    </div>
+                                </div> <!-- end .project-screenshot -->
+                                <div class="col-md-7  project-description">
+                                    <b>Description:</b>
+                                    <div class="project-description-text">
+                                    A simple platform shooter as an entry for Mini Ludum Dare #58. The theme of the jam was "Pong."
+                                    </div> <!-- end .project-description-text -->
+                                    <div class="project-description-tools">
+                                        Made with:
+                                        <span class="project-tool">Phaser</span>
+                                    </div> <!-- end .project-description-tools -->
+                                </div> <!-- end .project-description -->
+                                
+                                <div class="col-md-3  project-status">
+                                    <div class="row">
+                                        
+                                        <div class="project-status-text col-md-12 col-xs-2">
+                                            <b>Status:</b><br>
+                                            <span class="label label-success">Released</span>
+                                        </div>
+                                        <div class="project-status-link col-md-12 col-xs-10">
+                                            <b>Play on:</b><br>
+                                            <span class="label label-itchio"><a href="http://chongdashu.itch.io/pong-platform-shooter">itch.io</a></span>
+                                        </div>
+                                    </div> <!-- end .row -->
+                                </div> <!-- end .project-status -->
+                            </div> <!-- end .row -->
+                        </div> <!-- end .project-container -->
+                    </div> <!-- end .col-md-12 -->
+                </div> <!-- end .row-project -->
+                <!-- END PROJECT -->
+
+                <!-- BEGIN PROJECT -->
+                <div class="row row-project">
+                    <div class="col-md-12">
+                        <div class="project-container">
+                            <div class="row">
+                                <div class="col-md-12 project-title">
+                                    <h3> Pi-Roulette Arcade Arena </h3>
+                                </div>
+                                <div class="col-md-2  project-screenshot text-center">
+                                    <div class="project-image" style="width:150px; height:150px; border: 2px solid green; padding-top: 25px; color: green;">
+                                        Image
+                                    </div>
+                                </div> <!-- end .project-screenshot -->
+                                <div class="col-md-7  project-description">
+                                    <b>Description:</b>
+                                    <div class="project-description-text">
+                                    Monocle is a 2-dimensional (2D) puzzle platformer game. 
+                                    Its main gameplay mechanic involves making objects within the world become visible/invisible based on color.
+                                    Monocle was featured in the Boston Festival of Indie Games - Digital Games Showcase in 2013.
+                                    </div> <!-- end .project-description-text -->
+                                    
+                                    <div class="project-description-tools">
+                                        <br>
+                                        <b>Made with:</b>
+                                        <span class="project-tool">Unity</span>,
+                                        <span class="project-tool">2D Toolkit</span>,
+                                        <span class="project-tool">Adobe Illustrator</span>,
+                                        <span class="project-tool">Spine</span>
+                                    </div> <!-- end .project-description-tools -->
+                                </div> <!-- end .project-description -->
+                                
+                                <div class="col-md-3  project-status">
+                                    <b>Status:</b>
+                                    <div class="project-status-text">
+                                        <span class="label label-success">Released</span>
+                                    </div>
+                                    <b>Play on:</b>
+                                    <div class="project-status-link">
+                                        <span class="label label-itchio"><a href="http://chongdashu.itch.io/pong-platform-shooter">itch.io</a></span>
+                                    </div>
+                                </div> <!-- end .project-status -->
+                            </div> <!-- end .row -->
+                        </div> <!-- end .project-container -->
+                    </div> <!-- end .col-md-12 -->
+                </div> <!-- end .row-project -->
+                <!-- END PROJECT -->
 
                 <!-- BEGIN PROJECT -->
                 <div class="row row-project">
@@ -46,12 +155,13 @@
                                 <div class="col-md-12 project-title">
                                     <h3> Monocle </h3>
                                 </div>
-                                <div class="col-md-2 project-screenshot text-center">
-                                    <div class="project-image" style="width:100px; height:100px; border: 2px solid green; padding-top: 20%; color: green;">
+                                <div class="col-md-2  project-screenshot text-center">
+                                    <div class="project-image" style="width:150px; height:150px; border: 2px solid green; padding-top: 25px; color: green;">
                                         Image
                                     </div>
                                 </div> <!-- end .project-screenshot -->
-                                <div class="col-md-9 project-description">
+                                <div class="col-md-7  project-description">
+                                    <b>Description:</b>
                                     <div class="project-description-text">
                                     Monocle is a 2-dimensional (2D) puzzle platformer game. 
                                     Its main gameplay mechanic involves making objects within the world become visible/invisible based on color.
@@ -68,9 +178,10 @@
                                     </div> <!-- end .project-description-tools -->
                                 </div> <!-- end .project-description -->
                                 
-                                <div class="col-md-1 project-links">
-                                    Sep-2013
-                                </div> <!-- end .project-links -->
+                                <div class="col-md-1  project-status">
+                                    <b>Status:</b>
+                                    On-Hold
+                                </div> <!-- end .project-status -->
                             </div> <!-- end .row -->
                             
                         </div> <!-- end .project-container -->
@@ -78,97 +189,14 @@
                 </div> <!-- end .row-project -->
                 <!-- END PROJECT -->
 
-                <!-- BEGIN PROJECT -->
-                <div class="row row-project">
-                    <div class="col-md-12">
-                        <div class="project-container">
-                            <div class="row">
-                                <div class="col-md-12 project-title">
-                                    <h3> Productivity Enforcer </h3>
-                                </div>
-                                <div class="col-md-2 project-screenshot text-center">
-                                    <div class="project-image" style="width:100px; height:100px; border: 2px solid green; padding-top: 20%; color: green;">
-                                        Image
-                                    </div>
-                                </div> <!-- end .project-screenshot -->
-                                <div class="col-md-9 project-description">
-                                    <div class="project-description-text">
-                                    Monocle is a 2-dimensional (2D) puzzle platformer game. 
-                                    Its main gameplay mechanic involves making objects within the world become visible/invisible based on color.
-                                    Monocle was featured in the Boston Festival of Indie Games - Digital Games Showcase in 2013.
-                                    </div> <!-- end .project-description-text -->
-                                    
-                                    <div class="project-description-tools">
-                                        <br>
-                                        <b>Made with:</b>
-                                        <span class="project-tool">Unity</span>,
-                                        <span class="project-tool">2D Toolkit</span>,
-                                        <span class="project-tool">Adobe Illustrator</span>,
-                                        <span class="project-tool">Spine</span>
-                                    </div> <!-- end .project-description-tools -->
-                                </div> <!-- end .project-description -->
-                                
-                                <div class="col-md-1 project-links">
-                                    Feb-2014
-                                </div> <!-- end .project-links -->
-                            </div> <!-- end .row -->
-                            
-                        </div> <!-- end .project-container -->
-                    </div> <!-- end .col-md-12 -->
-                </div> <!-- end .row-project -->
-                <!-- END PROJECT -->
+                
 
-                <!-- BEGIN PROJECT -->
-                <div class="row row-project">
-                    <div class="col-md-12">
-                        <div class="project-container">
-                            <div class="row">
-                                <div class="col-md-12 project-title">
-                                    <h3> MarkNotes </h3>
-                                </div>
-                                <div class="col-md-2 project-screenshot text-center">
-                                    <div class="project-image" style="width:100px; height:100px; border: 2px solid green; padding-top: 20%; color: green;">
-                                        Image
-                                    </div>
-                                </div> <!-- end .project-screenshot -->
-                                <div class="col-md-9 project-description">
-                                    <div class="project-description-text">
-                                    Monocle is a 2-dimensional (2D) puzzle platformer game. 
-                                    Its main gameplay mechanic involves making objects within the world become visible/invisible based on color.
-                                    Monocle was featured in the Boston Festival of Indie Games - Digital Games Showcase in 2013.
-                                    </div> <!-- end .project-description-text -->
-                                    
-                                    <div class="project-description-tools">
-                                        <br>
-                                        <b>Made with:</b>
-                                        <span class="project-tool">Unity</span>,
-                                        <span class="project-tool">2D Toolkit</span>,
-                                        <span class="project-tool">Adobe Illustrator</span>,
-                                        <span class="project-tool">Spine</span>
-                                    </div> <!-- end .project-description-tools -->
-                                </div> <!-- end .project-description -->
-                                
-                                <div class="col-md-1 project-links">
-                                    Jul-2015
-                                </div> <!-- end .project-links -->
-                            </div> <!-- end .row -->
-                            
-                        </div> <!-- end .project-container -->
-                    </div> <!-- end .col-md-12 -->
-                </div> <!-- end .row-project -->
-                <!-- END PROJECT -->
-
+               
 
             </div> <!-- end .col-md-12 -->
-            <div class="col-md-3">
-                <h2>News</h2>
-                <div class="news-container">
-                    <ul>
-                        <li><b>2015-07-31:</b> Site launch</li>
-                    </ul>
-                </div> <!-- end .news-container -->
-            </div> <!-- end .col-md-4 -->
+            
         </div> <!-- end .row -->
+
     </div> <!-- end .container -->
 </body>
 
