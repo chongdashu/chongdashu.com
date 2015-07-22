@@ -1,0 +1,18 @@
+{
+    "projects" : [
+
+        {
+            // project
+            "title": "Pong Platform Shooter",
+            "image": "res/images/pong-platform-shooter.png",
+            "platforms": ["web"],
+            "made_with": ["phaser"],
+            "status": "released",
+            "available_at" : {
+                "url": "http://itch.io/chongdashu/pong-platform-shooter",
+                "text": "Play on itchi.io"
+            }
+        }
+
+    ]
+}
